@@ -189,10 +189,6 @@ To build the library:
 npm run build
 ```
 
-## License
-
-ISC
-
 ## Contributing
 
 This is a personal project by Arham. For contributions or suggestions, please reach out through the #arhamlab organization.
