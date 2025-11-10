@@ -62,12 +62,12 @@ function App() {
         Primary Button
       </Button>
       
-      <Button variant="outline" onClick={() => alert('Outline clicked!')}>
-        Outline Button
+      <Button variant="danger" onClick={() => alert('Danger clicked!')}>
+        Danger Button
       </Button>
       
-      <Button variant="ghost" onClick={() => alert('Ghost clicked!')}>
-        Ghost Button
+      <Button variant="info" onClick={() => alert('Info clicked!')}>
+        Indo Button
       </Button>
     </div>
   );
@@ -75,7 +75,7 @@ function App() {
 ```
 
 **Props:**
-- `variant` (string, optional): Button style variant - `"primary"`, `"outline"`, or `"ghost"`. Defaults to `"primary"`
+- `variant` (string, optional): Button style variant - `"primary"`, `"Danger"`, or `"Info"`. Defaults to `"primary"`
 - `children` (ReactNode): Button text or content
 - `onClick` (function, optional): Click event handler
 
